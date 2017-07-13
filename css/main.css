@@ -1,0 +1,124 @@
+	a, .info > p, .tel, .social > img, .copy > p {
+				color: #a30015;
+			    text-decoration: none;
+			    cursor: pointer;
+			    font-weight: bold;
+			    border-bottom-color: aqua;
+			    border: solid 1px;
+			    padding: 10;
+			    border-left: none;
+   			 border-right: none;
+
+			}
+			.social > img {
+				    background-color: #535353;
+				
+			}
+			.social > img:hover {
+
+				    color: #0f6ecd;
+			}
+			a:hover {
+				 text-decoration: none;
+			}
+
+			.header{
+				display: block;
+				background-color: #000; 
+				height: auto;
+				color: white;
+			}
+			.header > div {
+				display: inline-block;
+				margin: 2%;
+			}
+			.line {
+				display: block;
+				margin: 2% 0;
+			}
+			.str {
+			    margin: 1%;
+			    padding: 2%;
+			    box-shadow: 0px 0px 11px #000;
+			    width: 15%;
+			    vertical-align: top;
+			    border: 3px solid #a93310;
+			    height: 25%;
+			    overflow: auto;
+			    position: relative;
+			    text-align: left;
+			    border-bottom: none;
+			    border-top: none;
+			}
+
+
+			.line > .str {
+				display: inline-block;
+			}
+			.footer {
+				display: block;
+				background-color: #000; 
+				height: auto;
+				color: white;
+			}
+			.footer > div {
+				display: inline-block;
+				margin: 2%;
+			}
+			.main {
+				width: 100%;
+				position: relative;
+				text-align: center;
+			}
+			.copy {
+				display:block;
+			}
+			.copy  > *{
+				display:inline-block;
+			}
+			.slider {
+
+		    margin: 1% 0;
+		    box-shadow: 0px 0px 11px #000;
+		    vertical-align: top;
+		    border: 3px solid #a93310;
+		    overflow: auto;
+		    position: relative;
+		    text-align: left;
+		    border-left: none;
+		    border-right: none;
+		    overflow: hidden;
+
+			}
+			
+			.slider > div > img {
+				width: 17%;
+			    height: 25%;
+			    display: inline;
+			    vertical-align: middle;
+			    border-left: 2px #a93310 solid;
+			    border-right: 2px #a93310 solid;
+			    margin: 0px;
+			    padding: 0px;
+
+			}
+			.imgs {
+				       width: 150%;
+   					 text-align: left;
+			}
+
+			::-webkit-scrollbar
+			{
+			  width: 0.8%;  /* for vertical scrollbars */
+			  height: 0.8%; /* for horizontal scrollbars */
+			}
+
+			::-webkit-scrollbar-track
+			{
+			  background: rgba(0, 0, 0, 0.1);
+			}
+
+			::-webkit-scrollbar-thumb
+			{
+			  background: rgba(255, 0, 0, 0.6);
+			}
